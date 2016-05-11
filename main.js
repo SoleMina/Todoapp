@@ -20,7 +20,6 @@ function doTask(taskText) {
 
 	tasks.appendChild(elemento);
 	var ex = tasks.lastChild;
-	alert(ex.innerHTML);
 
 	cero.onclick = function(){
 		task.removeChild(elemento);
