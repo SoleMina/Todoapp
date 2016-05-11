@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TODO APP</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="col-md-12 text-center">TODO APP</h1>
+    <div class="container">
+        <form id="form" name="form1">
+		<textarea id="inputBox" placeholder=" Añade tu nueva tarea" name="texto"></textarea><br>
+		</form>
+		<button type="button" 
+				id="taskButton"
+				class="btn"
+				onclick="validate()"
+				onclick="task()">Añadir tarea <i class="glyphicon glyphicon-plus"></i></button>
+		<div id="tasks">
+		</div>
+	</div>
+	<script src="main.js" type="text/javascript"></script>
+</body>
+</html>
